@@ -133,6 +133,12 @@
     }
 }
 
+@media (width <= 768px) {
+    #hero, .buttons {
+        flex-direction: column-reverse;
+    }
+}
+
 /* title */
 @keyframes slideUp {
 
