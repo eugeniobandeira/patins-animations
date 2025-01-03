@@ -74,7 +74,7 @@ footer {
             & img {
                 width: 1.5rem;
             }
-            
+
             &::before {
                 content: '';
                 width: inherit;
@@ -94,6 +94,21 @@ footer {
             &:hover::before {
                 scale: 1;
             }
+        }
+    }
+}
+
+@media (width <= 768px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        & nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     }
 }

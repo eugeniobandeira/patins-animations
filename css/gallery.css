@@ -111,3 +111,12 @@
         transform: translateY(100%);
     }
 }
+
+@media (width <= 768px) {
+    #gallery {
+        & .content {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
